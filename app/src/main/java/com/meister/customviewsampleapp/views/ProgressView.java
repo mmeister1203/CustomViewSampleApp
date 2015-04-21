@@ -12,7 +12,8 @@ import android.view.View;
 import com.meister.customviewsampleapp.R;
 
 /**
- * Custom progress view to display the loading progress on our splash screen.
+ * Custom progress view to display the loading progress on our splash screen. Just to note, we could
+ * have just used Androids ProgressBar class, however that would have been far less fun.
  * Created by mark.meister on 4/19/15.
  */
 public class ProgressView extends View {
