@@ -15,13 +15,10 @@ import com.meister.customviewsampleapp.views.ProgressView;
  * Created by mark.meister on 4/19/15.
  */
 public class SplashScreenFragment extends BaseFragment {
-
     private ProgressView mProgressView;
 
     public static SplashScreenFragment newInstance() {
-        final SplashScreenFragment fragment = new SplashScreenFragment();
-        fragment.mName = SplashScreenFragment.class.getName();
-        return fragment;
+        return new SplashScreenFragment();
     }
 
     @Override
@@ -32,6 +29,11 @@ public class SplashScreenFragment extends BaseFragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         mProgressView = (ProgressView) view.findViewById(R.id.progress_view);
+    }
+
+    @Override
+    public String getName() {
+        return SplashScreenFragment.class.getName();
     }
 
     public void updateProgress(int progress) {

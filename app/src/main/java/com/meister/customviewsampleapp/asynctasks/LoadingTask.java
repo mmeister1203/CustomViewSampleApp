@@ -10,7 +10,7 @@ import java.util.Random;
 
 /**
  * Loading AsyncTask. This is started when we show our splash screen when the user opens the app.
- * This task would responsible for initializing anything needed by our application, but in this case
+ * This task would be responsible for initializing anything needed by our application, but in this case
  * is really only used to publish progress to our custom progress view.
  * Created by mark.meister on 4/19/15.
  */
@@ -45,7 +45,7 @@ public class LoadingTask extends AsyncTask<Void, Integer, Boolean> {
             }
 
             try {
-                // Put this background thread to sleep for 600 ms.
+                // Put this background thread to sleep for 500 ms.
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();

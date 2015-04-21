@@ -14,13 +14,16 @@ import com.meister.customviewsampleapp.R;
 public class SpiralScreenFragment extends BaseFragment {
 
     public static SpiralScreenFragment newInstance() {
-        final SpiralScreenFragment fragment = new SpiralScreenFragment();
-        fragment.mName = SpiralScreenFragment.class.getName();
-        return fragment;
+        return new SpiralScreenFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.spiral_fragment_layout, container, false);
+    }
+
+    @Override
+    public String getName() {
+        return SpiralScreenFragment.class.getName();
     }
 }
