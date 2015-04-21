@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Spiral View -->
+    <dimen name="spiral_line_width">10dp</dimen>
+    <dimen name="controls_button_size">100dp</dimen>
+    <dimen name="controls_btn_text_size">18sp</dimen>
+    <dimen name="spinner_text_size">18sp</dimen>
+    <dimen name="spinner_view_width">200dp</dimen>
+    <dimen name="spinner_view_margin_top">10dp</dimen>
+
+    <!-- Progress View -->
+    <dimen name="progress_view_line_width">10dp</dimen>
+
+    <!-- Splash Fragment -->
+    <dimen name="splash_title_text_size">35sp</dimen>
+    <dimen name="splash_subtitle_text_size">20sp</dimen>
+    <dimen name="splash_subtitle_width">750dp</dimen>
+    <dimen name="splash_subtitle_margin_top">50dp</dimen>
+    <dimen name="splash_progress_view_margin">100dp</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CustomViewSampleApp</string>
+    <string name="play_button_text">Play</string>
+    <string name="pause_button_text">Pause</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="spiral_color_spinner_top_text">Spiral Color</string>
+    <string name="bg_color_spinner_top_text">Background Color</string>
+    <string name="splash_screen_loading_title">Loading&#8230;</string>
+    <string name="splash_screen_loading_subtitle">&#8230;well sort of, really just showing how to update the UI while performing a background task. Also, the progress bar below is a simple custom view</string>
+
+    <string-array name="color_options">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Black</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="spiral_default_background_color">@android:color/white</color>
+    <color name="loading_blue_primary">#0096D6</color>
+    <color name="loading_blue_secondary">#00A8F0</color>
+</resources>

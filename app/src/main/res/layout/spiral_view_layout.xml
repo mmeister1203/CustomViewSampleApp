@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spiral_color_spinner"
+        android:layout_width="@dimen/spinner_view_width"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/background_color_spinner"
+        android:layout_width="@dimen/spinner_view_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spinner_view_margin_top"
+        android:layout_below="@id/spiral_color_spinner" />
+
+    <Button
+        android:id="@+id/spiral_play_btn"
+        android:layout_width="@dimen/controls_button_size"
+        android:layout_height="@dimen/controls_button_size"
+        android:layout_alignParentRight="true"
+        android:text="@string/play_button_text"
+        android:textSize="@dimen/controls_btn_text_size"/>
+
+    <Button
+        android:id="@+id/spiral_pause_btn"
+        android:layout_width="@dimen/controls_button_size"
+        android:layout_height="@dimen/controls_button_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/spiral_play_btn"
+        android:text="@string/pause_button_text"
+        android:textSize="@dimen/controls_btn_text_size"/>
+
+    <Button
+        android:id="@+id/spiral_reset_btn"
+        android:layout_width="@dimen/controls_button_size"
+        android:layout_height="@dimen/controls_button_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/spiral_pause_btn"
+        android:text="@string/reset_button_text"
+        android:textSize="@dimen/controls_btn_text_size"/>
+
+</RelativeLayout>
